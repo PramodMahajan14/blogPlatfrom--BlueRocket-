@@ -1,0 +1,238 @@
+#update_form,.emp-profile{
+    padding: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 0.5rem;
+    background: #fff;
+}
+#user_profile{
+
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+margin-top: -10rem;
+z-index: 99;
+
+}
+#user_img{
+    z-index: 99;
+    margin-top: -8rem;  
+}
+#user_imgsrc{
+    border-radius: 50%;
+    z-index: 900;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#user_profile_btn{
+   cursor: pointer;
+   color: #fff;
+}
+#user_profile_btn:hover{
+    color: rgba(0, 139, 63, 0.89);
+}
+.profile-img{
+    text-align: center;
+}
+
+.profile-img img{
+    width: 70%;
+    height: 100%;
+}
+.profile-img .file {
+    position: relative;
+    overflow: hidden;
+    margin-top: -20%;
+    width: 70%;
+    border: none;
+    border-radius: 15;
+    font-size: 15px;
+    background: #f1f2f300;
+    cursor: pointer;
+}
+.profile-img .file input {
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    top: 0;
+  
+}
+.profile-head h5{
+    color: midnightblue;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.profile-head h6{
+    color: rgb(28, 3, 73);
+}
+.profile-edit-btn{
+    border: none;
+    border-radius: 1.5rem;
+    width: 70%;
+    padding: 2%;
+    font-weight: 600;
+    color: #fff;
+  
+    background-color: rgb(68, 68, 194);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.proile-rating{
+    font-size: 12px;
+    color: #0a0a0a;
+    margin-top: 5%;
+}
+.proile-rating span{
+    color: #080808;
+    font-size: 15px;
+    font-weight: 600;
+}
+.profile-head .nav-tabs{
+    margin-bottom:5%;
+}
+.profile-head .nav-tabs .nav-link{
+    font-weight:600;
+    border: none;
+}
+.profile-head .nav-tabs .nav-link.active{
+    border: none;
+    border-bottom:2px solid #0062cc;
+}
+.profile-work{
+    padding: 14%;
+    margin-top: -15%;
+   
+}
+.profile-work p{
+    font-size: 12px;
+    color: #08080e;
+    font-weight: 600;
+    margin-top: 10%;
+    border-bottom: 1px solid #0a0a0a;
+ 
+}
+.profile-work a{
+    text-decoration: none;
+    color: #000408;
+    font-weight: 600;
+    font-size: 14px;
+   
+}
+.profile-work ul{
+    list-style: none;
+}
+.profile-tab label{
+    font-weight: 600;
+}
+.profile-tab p{
+    font-weight: 600;
+    color: #0062cc;
+    
+}
+.stats span {
+    font-size: 29px
+}
+
+.ui.negative.button{
+   
+margin-top: .50rem;
+ 
+  width: 20rem;
+}
+.closebtn{
+    width: 100%;
+   align-items: center;
+}
+.profile-edit-btn2{
+    border: none;
+    border-radius: 1.5rem;
+   
+    width: 30%;
+    padding: 2%;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(194, 68, 79);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+  .profile-edit-btn1{
+    border: none;
+    border-radius: 1.5rem;
+
+    width: 30%;
+    padding: 2%;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    background-color: blue;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+#update_form{
+    margin-top: -10rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}  
+.col-md-6:hover{
+    color: #000408;
+}
+.camera.icon{
+    font-size: 2.4rem;
+}
+.camera.icon:hover{
+color: #89c913da;
+}
+
+.input-tag {
+    background: white;
+    border: 1px solid #d6d6d6;
+    border-radius: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 5px 0;
+  }
+  
+  .input-tag input {
+    border: none;
+    width: 100%;
+  }
+  
+  .input-tag__tags {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .input-tag__tags li {
+    align-items: center;
+    background: #85A3BF;
+    border-radius: 2px;
+    color: white;
+    display: flex;
+    font-weight: 300;
+    list-style: none;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 5px 10px;
+  }
+  
+  .input-tag__tags li button {
+    align-items: center;
+    appearance: none;
+    background: #333333;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 12px;
+    height: 15px;
+    justify-content: center;
+    line-height: 0;
+    margin-left: 8px;
+    padding: 0;
+    transform: rotate(45deg);
+    width: 15px;
+  }
+  
+  .input-tag__tags li.input-tag__tags__input {
+    background: none;
+    flex-grow: 1;
+    padding: 0;
+  }

@@ -1,0 +1,122 @@
+.secondNav{
+   border-bottom: 1px solid black;
+   background-color: skyblue;
+    font-size: 1rem;
+    min-height: 5rem;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+   flex-direction: row-reverse;
+   color: white;
+}
+.ele{
+    margin-right: 1rem;
+    text-decoration: none;
+    color: white;
+  cursor: pointer;
+  
+}
+.ele a{
+  text-decoration: none;
+ 
+}
+ /* #home{
+  font-weight: 500;
+  margin-right: 4rem;
+  font-size: larger;
+  transition: 0.5s;
+ border-bottom: none;
+ 
+} */
+
+.home_logo{
+  position: absolute;
+  left: 2%;
+}
+#home{
+  text-align: center;
+  text-decoration: none;
+  color: green;
+  padding-right: 2rem;
+}
+.secondNav.ele1 img{
+ 
+   
+  font-size: 2rem;
+}
+/* ===============profilr Menu=================*/
+.action .menu{
+  position: absolute;
+  top:65px;
+  right: 10px;
+  padding: 10px 20px;
+  background-color: white;
+  width: 160px;
+  box-sizing: 0 5px 25px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  transition: 0.2s;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  visibility: hidden;
+  opacity: 0;
+ 
+}
+.action .menu.active{
+  visibility: visible;
+  opacity: 1;
+  z-index: 99;
+
+}
+.action .menu::before{
+  content: '';
+  position: absolute;
+  top:-5px;
+  right: 28px;
+  width:20px;
+  height: 20px;
+  background-color: #fff;
+  transform: rotate(45deg);
+}
+.action .menu h3{
+  width: 100px;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px 0;
+  font-weight: 500;
+  color: #555;
+  line-height: 1.2mm;
+  cursor: text;
+ 
+}
+.action .menu ul li{
+  list-style: none;
+  padding: 10px 0;
+  /* border-top: 1px solid black; */
+  display : flex;
+  align-items:flex-start;
+}
+.action .menu ul li a{
+ display: inline-block;
+ text-decoration: none;
+ color: #555;
+ font-weight: 500;
+ transition: 0.5s;
+ cursor: pointer;
+}
+.action .menu ul li:hover a{
+  color: skyblue;
+}
+.rootemail{
+  font-size: 10px;
+  color: darkcyan;
+  visibility: visible;
+  overflow-y: scroll;
+}
+.rootemail::-webkit-scrollbar
+{
+	width: .1px;
+  height: .1mm;
+	background-color: green;
+}
+/* ========================================================Login Form========================================================================= */
+

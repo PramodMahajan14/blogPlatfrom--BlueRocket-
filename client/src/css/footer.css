@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.footer {
+   margin-top: 2rem;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(108, 108, 192, 0.377);
+  }
+  
+  .footer .heading {
+    max-width: 1010px;
+    width: 90%;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .footer .content {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1.5rem;
+  }
+  
+  .footer .content p {
+    margin-bottom: 1.3rem;
+    color: rgba(0, 0, 0, 0.829);
+  }
+  
+  .footer .content a {
+    text-decoration: none;
+    color: rgb(0, 0, 0, 0.829);
+  }
+  
+  .footer .content a:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.829);
+  }
+  
+  .footer .content h4 {
+    margin-bottom: 1.3rem;
+    font-size: 19px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  footer hr {
+    margin: 2rem 0;
+  }
+  
+  @media (max-width: 767px) {
+    .footer .content {
+      display: flex;
+      flex-direction: column;
+      font-size: 14px;
+    }
+  
+    .footer {
+      position: unset;
+    }
+  }
+  /* .h{color:#FF0000}
+  .e{color:#66CC66}
+  .a{color:#FF9966}
+  .l{color:#FFCCCC}
+  .t{color:#808080}
+  .hd{color:#808080}
+  .is{color:#5f9ea0}
+  .w{color:#7c9fa0}
+  .ed{color:	#008b8b}
+  .ad{color:#6b8e23}
+  .td{color:#8fbc8f}
+  .hdd{color:	#ff00ff} */
+  .smalltitle{
+     
+  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color:transparent;
+    border-bottom: solid 1px yellow;
+   background-image: linear-gradient(to right, #FF0000 15%, #6666 10% , #FF9966 30%,#FFCCCC 10%
+    ,#808080 10%,#800000 15%,#5f9ea0 10%,#d2691e 40%,#008b8b 10%,#6b8e23 20%,#8fbc8f 10%,#ff00ff 50%);
+    }
+   
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .footer .content,
+    .footer {
+      font-size: 14px;
+    }
+  }
+  
+  @media (orientation: landscape) and (max-height: 500px) {
+    .footer {
+      position: unset;
+    }
+  }

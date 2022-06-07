@@ -1,0 +1,46 @@
+$bgColor:#f5f6f7;
+
+.card{
+    background-color:white;
+    padding:1.5rem ;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    &_h3{
+        font-size:1.6rem ;
+        font-weight: 400;
+        margin-bottom: 2rem;
+    }
+}
+.group__control{
+border-bottom: green 100px solid;
+}
+label{
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: .4rem;
+}
+#image{
+    display: none;
+}
+.image__label{
+    display: block;
+    width: 100%;
+    padding: .26rem;
+    background: green;
+    color: white;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.postimage {
+    margin-top: 5px;
+    img{
+   
+    width: 100%;
+    height: auto;
+}
+}
+sup{
+    color: red;
+}
+
+// Activation Token Page 
